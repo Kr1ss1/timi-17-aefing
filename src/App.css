@@ -1,0 +1,34 @@
+.app {
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  transition: background o.2s, color, 0.2s;
+}
+
+.app.light {
+  background: white
+  color:#20232a;
+}
+
+.app.dark {
+  background:#20232a;
+  color:white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid currentColor;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
